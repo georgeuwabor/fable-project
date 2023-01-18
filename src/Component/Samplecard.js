@@ -5,7 +5,7 @@ const Sample = (props) => {
         <img src={props.img} alt="" />
         <div className="jacket">
           <p>{props.name}</p>
-          <p>{props.price}</p>
+          <p id='price'>{props.price}</p>
         </div>
       </div>
     </>

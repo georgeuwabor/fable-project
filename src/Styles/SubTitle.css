@@ -7,7 +7,7 @@
   align-items: center;
   padding: 12px 60px;
   margin-top: 40px;
-  position: absolute;
+  /* position: absolute; */
   width: 100%;
   height: 55px;
   left: 0px;
@@ -27,7 +27,7 @@ h3 {
   font-size: medium;
 }
 
-font-family: "Basis Grotesque Pro";
+/* font-family: "Basis Grotesque Pro";
 font-style: normal;
 font-weight: 500;
 font-size: 46px;
@@ -36,4 +36,3 @@ line-height: 140%;
 
 /* Secondary */
 
-color: #080b13;
