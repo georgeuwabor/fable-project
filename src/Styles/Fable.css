@@ -22,29 +22,15 @@ p {
 }
 
 #fable_foto {
-  height: 10%;
-  margin-bottom: 10px;
-  height: 674px;
-}
-
-#fable_foto > img {
-  margin-left: 80px;
+  height: auto;
   width: 50%;
-  margin-top: 0%;
-  background-color: rgb(203, 208, 208);
 }
 
 #fable_cart {
   display: flex;
-  position: absolute;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 4px 32px 20px;
-  /* gap: 32px; */
-  margin-left: 56%;
-  width: 40%;
-  height: 2vh;
+  padding: 4px 10px 20px 10px;
+  width: 50%;
   background: #ffffff;
 }
 
@@ -69,4 +55,9 @@ p {
   text-align: center;
 
   color: #ffffff;
+}
+
+#con_div {
+  display: flex;
+  margin-left: 5%;
 }
