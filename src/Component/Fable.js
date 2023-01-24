@@ -1,13 +1,9 @@
 import "../Styles/Fable.css";
-
+import SubNav from "./SubNav";
 const Fable = (props) => {
   return (
     <>
-      <div id="fable_container">
-        <p>Fable of Klassik</p>
-        <p>-</p>
-        <p>Jacket</p>
-      </div>
+  <SubNav name={'Fable of Klassik'} tag={'Jacket'} />
       <div id="con_div">
         <div id="fable_foto">
           <img src={props.img} alt="" />
