@@ -1,11 +1,17 @@
 import Navbar from "../Component/Navbar";
 import Form from "../Component/Form";
-
+import Cart from "../Component/Cart";
+import SubNav from "../Component/SubNav";
 const Order = () => {
   return (
     <>
       <Navbar />
-      <Form name={"Shopping Bag"} order={"Order"} />
+      <SubNav name={"Shopping Bag"} tag={"Order"} />
+
+      <div id="con_div">
+        <Form name={"Shopping Bag"} order={"Order"} />
+        <Cart />
+      </div>
     </>
   );
 };
