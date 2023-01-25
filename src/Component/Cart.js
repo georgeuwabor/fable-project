@@ -3,9 +3,11 @@ import SampleCart from "./SampleCart";
 import Sample1 from "../Asset/Sample1.svg";
 import Sample2 from "../Asset/Sample2.svg";
 import Sample3 from "../Asset/Sample3.svg";
+import SummaryCart from "./SummaryCart";
+
 const Cart = (props) => {
   return (
-    <div style={{ width: "48%" }}>
+    <div style={{ width: "49%" }}>
       <div id="List_container">
         <div className="card_bag">
           <SampleCart
@@ -13,10 +15,10 @@ const Cart = (props) => {
             kls={"Jacket KLS"}
             collection={"Collection: KLASSIK OF FABLE"}
             article={"Article: M0592001"}
-            size={"Size:"}
-            color={"Color:"}
-            quatity={"Quantity:"}
-            price={"Price:"}
+            size={"M"}
+            color={"black"}
+            quatity={"1"}
+            price={"$105"}
           />
         </div>
         <div className="card_bag">
@@ -25,10 +27,10 @@ const Cart = (props) => {
             kls={"Shirt KLS"}
             collection={"Collection: KLASSIK OF FABLE"}
             article={"Article: A0521005"}
-            size={"Size:"}
-            color={"Color:"}
-            quatity={"Quantity:"}
-            price={"Price:"}
+            size={"M"}
+            color={"black"}
+            quatity={"1"}
+            price={"$105"}
           />
         </div>
         <div className="card_bag">
@@ -37,14 +39,16 @@ const Cart = (props) => {
             kls={"Trouser KLS"}
             collection={"Collection: KLASSIK OF FABLE"}
             article={"Article: H0522001"}
-            size={"Size:"}
-            color={"Color:"}
-            quatity={"Quantity:"}
-            price={"Price:"}
+            size={"M"}
+            color={"black"}
+            quatity={"1"}
+            price={"$105"}
           />
         </div>
       </div>
-      <div id="card_bag_summary"></div>
+      <div id="card_bag_summary">
+        <SummaryCart />
+      </div>
     </div>
   );
 };
