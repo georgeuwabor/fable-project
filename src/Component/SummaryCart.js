@@ -17,8 +17,12 @@ const SummaryCart = () => {
       </div>
 
       <div className="flex_content">
-        <p className="summary_details">Total:</p>
-        <p className="summary_details">$340</p>
+        <p className="summary_details">
+          <strong>Total:</strong>
+        </p>
+        <p className="summary_details">
+          <strong>$340</strong>
+        </p>
       </div>
 
       <div className="input_container">

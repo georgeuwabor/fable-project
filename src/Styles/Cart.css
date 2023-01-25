@@ -11,7 +11,7 @@ body {
   padding: 50px;
   gap: 20px;
 
-  width: 601px;
+  width: 100%;
   height: 203px;
 
   /* White */
@@ -197,15 +197,16 @@ body {
   width: 100%;
   display: flex;
   justify-content: flex-end;
-  margin-left: -18%;
+  margin-left: -8%;
   flex-direction: column;
   text-align: right;
+  margin-top: 8%;
 }
 
 .flex_content {
   display: flex;
   justify-content: space-between;
-  width: 48%;
+  width: 55%;
   align-self: end;
   font-family: "Basis Grotesque Pro";
   font-style: normal;
@@ -213,9 +214,9 @@ body {
   font-size: 13px;
   line-height: 120%;
   /* identical to box height, or 16px */
-
+  margin-bottom: -10px;
   /* Secondary */
-
+  margin-top: 0px;
   color: #080b13;
 }
 
@@ -249,7 +250,7 @@ body {
   align-items: flex-start;
   padding: 12px 24px;
 
-  width: 32%;
+  width: 38%;
   height: 50px;
 
   /* White */
