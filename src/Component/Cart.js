@@ -3,7 +3,7 @@ import SampleCart from "./SampleCart";
 import Sample1 from "../Asset/Sample1.svg";
 import Sample2 from "../Asset/Sample2.svg";
 import Sample3 from "../Asset/Sample3.svg";
-import SummaryCart from './SummaryCart'
+import SummaryCart from "./SummaryCart";
 
 const Cart = (props) => {
   return (
