@@ -6,11 +6,11 @@ const Order = () => {
   return (
     <>
       <Navbar />
-      <SubNav name={'Shopping Bag'} tag={'Order'} />
+      <SubNav name={"Shopping Bag"} tag={"Order"} />
 
       <div id="con_div">
-      <Form name={"Shopping Bag"} order={"Order"} />
-      <Cart />
+        <Form name={"Shopping Bag"} order={"Order"} />
+        <Cart />
       </div>
     </>
   );
