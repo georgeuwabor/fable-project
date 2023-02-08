@@ -18,10 +18,7 @@ const Fable = (props) => {
           </button>
           <h3>Product Info</h3>
           <p style={{ marginRight: "15%", marginTop: "-1%" }}>
-            Jacket made of a loose fit makes the product a universal element of
-            the upper layer. Two patch pockets and one hidden pocket. Branded
-            lining with FABLE pattern. Shoulder pads of medium rigidity for
-            shaping.
+           {props.desc}
           </p>
         </div>
       </div>

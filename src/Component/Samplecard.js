@@ -1,8 +1,8 @@
 const Sample = (props) => {
   return (
     <>
-      <div id="Card_Foto_Catalog1">
-        <img src={props.img} alt="" />
+      <div>
+        <img src={props.img} alt="" id="sample_card_img"/>
         <div className="jacket">
           <p id="name">{props.name}</p>
           <p id="price">{props.price}</p>
